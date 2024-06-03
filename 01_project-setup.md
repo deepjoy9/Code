@@ -64,6 +64,31 @@
    node index.js
    ```
 
+#### **Nodemon Setup**:
+
+1. **Install Nodemon**:
+
+   ```sh
+   npm install --save-dev nodemon
+   ```
+
+2. **Add script in in package.json**:
+
+   ```json
+   {
+     "scripts": {
+       "start": "node index.js",
+       "dev": "nodemon index.js"
+     }
+   }
+   ```
+
+3. **Start the Server**:
+
+   ```sh
+   npm run dev
+   ```
+
 ## Setting Up a Next.js Project
 
 1. **Create a New Next.js App**:
@@ -83,4 +108,6 @@
    npm run dev
    ```
 
+```
 
+```
